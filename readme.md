@@ -102,6 +102,7 @@ To make the server use development configuration, you need to set the `NODE_ENV`
 To build a simple agentic AI solution to fetch and display the current time via Web UI, you'd follow the following steps. First of all, create a new Agency and name it appropriately by clicking on the name on the home screen and typing in the name you like, for instace Current Time Agent.
 
 ![Current Time Agent, Agencies Tab Image](img/readme/CurrentTimeAgent-agencies.png)
+<img src="img/readme/CurrentTimeAgent-agencies.png" alt="Current Time Agent, Agencies Tab Image" width="300">
 
 You'd then switch to the spec tab, and write down a human-readable agency specification like this:
 
