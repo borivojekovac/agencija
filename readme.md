@@ -99,9 +99,9 @@ To make the server use development configuration, you need to set the `NODE_ENV`
 
 ### Simple Example
 
-To build a simple agentic AI solution to fetch and display the current time via Web UI, you'd follow the following steps. First of all, create a new Agency and name it appropriately by clicking on the name on the home screen and typing in the name you like, for instace Current Time Agent.
+To build a simple agentic AI solution to fetch and display the current time via Web UI, you'd follow the following steps. First of all, create a new Agency and name it appropriately by clicking on the name on the home screen and typing in the name you like, for instance Current Time Agent.
 
-<img src="img/readme/CurrentTimeAgent-agencies.png" alt="Current Time Agent, Agencies Tab" width="50%" style="margin: auto; display: block; "/>
+<img src="img/readme/CurrentTimeAgent-agencies.png" alt="Current Time Agent, Agencies Tab" width="50%"/>
 
 You'd then switch to the spec tab, and write down a human-readable agency specification like this:
 
@@ -113,7 +113,7 @@ Helpfull for a wide range of topics, can use a Tool tell time.
 Time can also be requested for a specific time zone, in which case the Agent remembers the time zone for future reference.
 ```
 
-![Current Time Agent, Spec Tab Image](img/readme/CurrentTimeAgent-spec.png)
+<img src="img/readme/CurrentTimeAgent-spec.png" alt="Current Time Agent, Spec Tab" width="50%"/>
 
 You would then use compiler to turn this into executable Node.js module either by running a command-line command or using "Compile" button on the Spec Tab.
 
@@ -205,7 +205,7 @@ const agent = new Agent({
 export default agent;
 ```
 
-![Current Time Agent, Code Tab Image](img/readme/CurrentTimeAgent-code.png)
+<img src="img/readme/CurrentTimeAgent-code.png" alt="Current Time Agent, Code Tab" width="50%"/>
 
 You could then initiate a chat with this agent using command line like so:
 
@@ -226,7 +226,7 @@ USER: what's the time
 AGENT: The current time in New York is 09:44:49.
 ```
 
-![Time Aware Agent Memory Image](img/readme/CurrentTimeAgent-memory.png)
+<img src="img/readme/CurrentTimeAgent-memory.png" alt="Current Time Agent, Memory Tab" width="50%"/>
 
 **Session #2**
 
@@ -235,7 +235,7 @@ USER: hey buddy, what's the current time?
 AGENT: The current time in New York is 9:46 AM.
 ```
 
-![Time Aware Agent Chat Image](img/readme/CurrentTimeAgent-chat.png)
+<img src="img/readme/CurrentTimeAgent-chat.png" alt="Current Time Agent, Chat Tab" width="50%"/>
 
 ## Agentic Framework Runtime
 The /runtime folder contains a robust foundation for building and executing AI agents. The framework implements an event-driven architecture with persistent memory, tool execution capabilities, and agent delegation patterns.
