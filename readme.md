@@ -99,11 +99,13 @@ To make the server use development configuration, you need to set the `NODE_ENV`
 
 ### Simple Example
 
-To build a simple agentic AI solution to fetch and display the current time via Web UI, you'd follow the following steps. First of all, create a new Agency and name it appropriately by clicking on the name on the home screen and typing in the name you like, for instance Current Time Agent.
+To build a simple agentic AI solution to fetch and display the current time via Web UI, you'd follow the following steps. First of all, create a new Agency using New Agency button on the home tab. Name it appropriately by clicking on the name and typing in the name you like, for instance Current Time Agent. 
 
 <img src="img/readme/CurrentTimeAgent-agencies.png" alt="Current Time Agent, Agencies Tab" width="50%"/>
 
-You'd then switch to the spec tab, and write down a human-readable agency specification like this:
+Alternatively, you can just create a txt file in the [agencies](agencies) folder. To rename, you can also rename the file in the agencies folder, but if doing so, make sure to rename other files with the same name as well - e.g. Current Time Agent.txt, Current Time Agent.js, Current Time Agent.mem...
+
+Switching to the spec tab, you can see the contents of the file, and you can write down a human-readable agency specification yourself, like so:
 
 **Current Time Agent.txt**
 
@@ -121,7 +123,7 @@ You would then use compiler to turn this into executable Node.js module either b
 node compiler/console.js "agency=Current Time Agent"
 ```
 
-The compiler would produce a code similar to this:
+The compiler would produce a code in [agencies](agencies) folder similar to this:
 
 **Current Time Agent.js**
 
@@ -207,13 +209,13 @@ export default agent;
 
 <img src="img/readme/CurrentTimeAgent-code.png" alt="Current Time Agent, Code Tab" width="50%"/>
 
-You could then initiate a chat with this agent using command line like so:
+Next, you can initiate a chat with this agent using chat tab or using command line, like so:
 
 ```bash
 node console.js "agency=Current Time Agent"
 ```
 
-Important note: every agent implicitly has access to MemoryTool, which enables it to persist and later use bits and pieces of information. Here's an example chat with the above agent, utilising memory tool:
+**Important note**: every agent implicitly has access to MemoryTool, which enables it to persist and later use bits and pieces of information. Here's an example chat with the above agent, utilising memory tool:
 
 **Session #1**
 
@@ -224,6 +226,16 @@ USER: remember that I'm using New York time zone please
 AGENT: Sure, from now onwards I'll provide you the time for the New York timezone.
 USER: what's the time
 AGENT: The current time in New York is 09:44:49.
+```
+
+This would store time zone information in memory which is persisted in a JSON file with mem extension in the [agencies](agencies)folder:
+
+**Current Time Agent.mem**
+
+```json
+{
+	"timezone": "America/New_York"
+}
 ```
 
 <img src="img/readme/CurrentTimeAgent-memory.png" alt="Current Time Agent, Memory Tab" width="50%"/>
