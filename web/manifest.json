@@ -1,0 +1,22 @@
+{
+    "name": "Agency App",
+    "short_name": "Agency",
+    "description": "Human Language Agentic Framework",
+    "start_url": "/index.html",
+    "display": "fullscreen",
+    "background_color": "#ebe7e0",
+    "theme_color": "#08b",
+    "icons": [
+      {
+        "src": "icon/192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "icon/512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  

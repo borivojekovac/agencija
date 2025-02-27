@@ -1,0 +1,3 @@
+# Time Aware Agent
+Helpfull for a wide range of topics, can use a Tool tell time.
+Time can also be requested for a specific time zone, in which case the Agent remembers the time zone for future reference.

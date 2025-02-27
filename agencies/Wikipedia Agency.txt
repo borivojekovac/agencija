@@ -1,0 +1,5 @@
+# Wikipedia Agency
+Helpfull with a wide range of topics, enriches response with up-to-date information from Wikipedia when possible.
+
+## Wikipedia Agent
+Specialises in summarising Wikipedia articles. Uses a Tool to retrieve an article that best matches a search term, then provides a relevant summary, up to 200 words long.

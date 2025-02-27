@@ -1,0 +1,25 @@
+{
+    "name": "agency",
+    "version": "1.0.0",
+    "main": "console.js",
+    "type": "module",
+    "directories": {
+        "doc": "doc"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "config": "^3.3.12",
+        "cors": "^2.8.5",
+        "express": "^4.21.2",
+        "markdown": "^0.5.0",
+        "openai": "^4.83.0",
+        "socket.io": "^4.8.1",
+        "socket.io-client": "^4.8.1",
+        "winston": "^3.17.0"
+    }
+}
