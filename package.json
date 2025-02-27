@@ -10,7 +10,7 @@
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "author": "",
-    "license": "ISC",
+    "license": "MIT",
     "description": "",
     "dependencies": {
         "config": "^3.3.12",
