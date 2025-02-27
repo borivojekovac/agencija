@@ -1,1 +1,1 @@
-this is where js files are copied under a temporary name before loading, to enable running multiple version at the same time.
+This is where js files are copied under a temporary name before loading, to enable editing and running multiple versions of an agency at the same time.

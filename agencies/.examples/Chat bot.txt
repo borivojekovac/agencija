@@ -1,2 +1,0 @@
-# Chat Bot Agent
-A useful assistant doing a great hob of responding to user prompts.

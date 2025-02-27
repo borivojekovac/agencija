@@ -1,9 +1,9 @@
 {
     "server": {
-        "httpPort": 3000,
-        "httpsPort": 3443,
-        "httpsKey": "server-192-168-1-20.key",
-        "httpsCertificate": "server-192-168-1-20.cert",
+        "httpPort": 80,
+        "httpsPort": 443,
+        "httpsKey": "localhost.key",
+        "httpsCertificate": "localhost.cert",
         "maxRequestSize": "500kb"
     },
     "llmProviders": {
