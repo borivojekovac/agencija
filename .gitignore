@@ -1,6 +1,7 @@
 node_modules
 logs
 agencies/*.mem
+agencies/.examples/*.mem
 runtime.tmp/*.js
 config/development.*
 config/production.*
