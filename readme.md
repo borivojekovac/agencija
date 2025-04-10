@@ -3,6 +3,8 @@
 
 This project is a simple Node.js framework for building and executing Agentic AI solutions using OpenAI's assistants and threads APIs, with special support for compiling human-readable agency specifications into executable Node.js modules.
 
+Put simply, a proof of concent showcasing programing agentic solutions using human language!
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Table of Contents
